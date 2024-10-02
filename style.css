@@ -3,7 +3,7 @@
     --primary: #3F44FD;
     --secondary: #FDF83F;
     --tertiary: #190949;
-    --grey: #F5F5F5;
+    --grey: #F0F0F0;
     --bgcolor: #FFF;
     --max-width: 1366px;
     
@@ -366,6 +366,8 @@ footer div {
     margin-bottom: 10px;
 }
 
+
+
 .flex {
     display:flex;
 	justify-content: space-between;
@@ -376,12 +378,16 @@ footer div {
     justify-content: right;
 }
 
+.social a {
+    padding: 0 0 0 10px;
+}
+
 .left {
     text-align:left;
 }
 
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     .hero-section {
         grid-template-columns: 1fr !important;
