@@ -1,7 +1,7 @@
 <html>
     
 <head>
-    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
 <link rel="stylesheet" type="text/css" href="style.css"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,8 +11,8 @@
 </head>
 <body>
 
-        <!-- Navbar --> 
-         <div class="navbar">   
+    <!-- Navbar --> 
+    <div class="navbar">   
         <div class="navbar-items">   
             <div id="Logo">
                 <svg style="width:30px; fill:#fff;" enable-background="new 0 0 323.6 330.5" version="1.1" viewBox="0 0 323.6 330.5" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -29,6 +29,8 @@
         </div>
     </div>
 
+
+    <!-- Hero header main page -->
     <div id="hero-header">
         <div>
 
@@ -45,13 +47,16 @@
                 <div id="hero-picture"></div>
         </div>
     </div>
+
+    <!-- Content -->
+    <!-- Background section -->
     <div id="background">
         <!-- Background -->    
         <div class="wrapper">
             <h2 class="caps">My background</h2>
             <span>Companies that trusted me ! </span>
             <div class="section-background">
-                <!-- Section job -->
+                <!-- Job section -->
                 <div class="jobs">
                     <div style="fill:#FFF;margin-bottom:20px;">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 512 512" version="1.1">
@@ -131,21 +136,18 @@
                     </div>
                 </div> 
                 
-                <div class="jobs education" style="grid-row: span 2">
+                <!-- Education section -->
+                <!-- Education section title -->
+                <div class="jobs education" style="grid-row: span 2"> 
                     
-                    <!-- Titre section education -->
                     <div style="fill: #fff; margin-bottom:20px;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 14 14" role="img" focusable="false" aria-hidden="true"><path d="m 12.499079,12.25525 c 0.0968,0 0.188377,-0.0436 0.249339,-0.11884 0.06096,-0.0752 0.08473,-0.17385 0.06473,-0.26853 l -0.202146,-0.95662 c 0.115125,-0.11137 0.187491,-0.26686 0.187491,-0.43975 0,-0.182 -0.08106,-0.34343 -0.206876,-0.45558 l 0,-3.32202 -0.810333,0.50146 0,2.82056 c -0.125815,0.11215 -0.2069,0.27358 -0.2069,0.45558 0,0.17291 0.07239,0.32841 0.187515,0.43975 l -0.20217,0.95662 c -0.02,0.0947 0.0038,0.19335 0.06473,0.26853 0.06096,0.0752 0.152539,0.11884 0.249339,0.11884 l 0.625281,0 z M 12.773741,4.75539 7.5021019,1.49209 C 7.3477151,1.39699 7.1736728,1.34925 6.9996305,1.34925 c -0.1740423,0 -0.3482077,0.0477 -0.5016586,0.14284 l -5.271713,3.2633 C 1.0854931,4.84249 0.99999905,4.99633 0.99999905,5.1619 c 0,0.1656 0.085494,0.31949 0.22625985,0.40673 l 5.2716883,3.26333 c 0.153451,0.0952 0.3276163,0.14284 0.5016586,0.14284 0.1740423,0 0.3481092,-0.0477 0.5024714,-0.14284 L 12.773741,5.56863 c 0.140766,-0.0872 0.22626,-0.24113 0.22626,-0.40673 0,-0.16557 -0.08549,-0.31946 -0.22626,-0.40651 z M 6.9996059,9.78508 c -0.3283798,0 -0.6488777,-0.0912 -0.928242,-0.26411 l -3.0750017,-1.90368 0,3.27796 c 0,0.97016 1.7931578,1.7555 4.0032436,1.7555 2.2108742,0 4.0038842,-0.78536 4.0038842,-1.7555 l 0,-3.27796 -3.0748786,1.90368 C 7.6492472,9.69388 7.3279857,9.78508 6.9996059,9.78508 Z"/></svg>
                     </div>
                     <h3 style="font-size:38px;";>Education</h3>
                 </div>
-
-                
-
-                
-
+                 <!-- Degree -->
                 <div class="jobs education" style="grid-row:span 3;">
-                    <!-- Education -->
+                    
                     <div class="degree">
                         <div>
                             <h3>Master Degree</h3>
@@ -160,49 +162,49 @@
                     </div>
 
                 </div>
-
+                <!-- CV button -->
                 <div class="jobs education cv" style="grid-row: span 1;">
                     <a href="#" class="cv-link">Download CV</a>
                 </div>
-
             </div>  
         </div>
-        <!-- Skills --> 
-        <div id="skills" class="wrapper">
-            <h2 class="caps">Skills</h2>
-        </div>
+    </div> 
 
-        <!-- Projects -->    
-        <div id="projects" class="wrapper">
+    <!-- Skills --> 
+    <!--<div id="skills" class="wrapper">
+        <h2 class="caps">Skills</h2>
+    </div>-->
+
+    <!-- Projects -->    
+    <!--<div id="projects" class="wrapper">
             <h2 class="caps">Projects</h2>
+        </div>-->
+
+
+    <!-- Contact form -->
+    <div id="contact" class="wrapper">
+        <h2 class="caps">Contact me !</h2>
+
+        <div class="grid50">
+            <div>
+                Colonne de gauche
+            </div>
+            <div>
+                <label>Name</label><br/>
+                <input type="text" required>
+                <label>Email</label><br/>
+                <input type="mail" required>
+                <label>Message</label>
+                <textarea type="text" required maxlength="5000"></textarea>
+                <label>Recopier le code: f38ce69rx</label>                
+                <input type="text" placeholder="f38ce69rx" required>  
+                <input type="submit">
+            </div>
         </div>
-
-
-        <!-- Contact form -->
-        <div id="contact" class="wrapper">
-            <h2 class="caps">Contact me !</h2>
-
-            <div class="grid50">
-                <div>
-                    Colonne de gauche
-                </div>
-                <div>
-                    <label>Name</label><br/>
-                    <input type="text" required>
-                    <label>Email</label><br/>
-                    <input type="mail" required>
-                    <label>Message</label>
-                    <textarea type="text" required maxlength="5000"></textarea>
-                    <label>Recopier le code: f38ce69rx</label>                
-                    <input type="text" placeholder="f38ce69rx" required>  
-                    <input type="submit">
-                </div>
-            </div>
-            
-                
-            </div>
         
+            
     </div>
+        
 
 
 
